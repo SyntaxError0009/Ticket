@@ -21,7 +21,7 @@ const orderrr = "1188932079044542464"
 client.on("channelCreate", async channel => {
 if (channel.type === "GUILD_TEXT" && channel.name.startsWith("ticket-") && channel.parent.id === orderrr) {
 
-await new Promise(r => setTimeout(r, 200))
+await new Promise(r => setTimeout(r, 2000))
 
 channel.send(`>  **سلاو بەرێز بەخێر بێیت بۆ تیکیتک**
 __MOON NIGHT__
