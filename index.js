@@ -16,7 +16,7 @@ client.on("ready", async () => {
 console.log(`${client.user.username} is Ready!`)
 })
 
-const orderrr = "1188932079044542464"
+const orderrr = "1173340365881876571"
 
 client.on("channelCreate", async channel => {
 if (channel.type === "GUILD_TEXT" && channel.name.startsWith("ticket-") && channel.parent.id === orderrr) {
@@ -24,7 +24,7 @@ if (channel.type === "GUILD_TEXT" && channel.name.startsWith("ticket-") && chann
 await new Promise(r => setTimeout(r, 2000))
 
 channel.send(`>  **سلاو بەرێز بەخێر بێیت بۆ تیکیتک**
-__MOON NIGHT__
+__IC STORE__
 > **داوە کاریەکەت رون کەوە** 
  __HAMA__`)
 
